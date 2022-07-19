@@ -1,0 +1,10 @@
+Hook-->we have two different type of writing react component 1.class based component 2.functional based component
+class based  require unnecessary lengthy code and they are tricky
+but functional type does noot have features like life cycle method and stae etc so ,Hook is have here to access these features of class based to functional based component.To support state and life cycle method Hook is used which allow us to douse react features it with functional type component
+React uses virtual DOM,virtual dom makes a copy of real dom,when virtual dom detects a change  it sends a asynchronous update to real dom that means only the changes occur for updated thing rest remains same,the real dom compare the current state with old state and update the changes
+
+State management-->state is one of the hook ,a life cycle method
+
+Props drilling-->its an issue in react we see in other session(context API),if we want to send the data from one component to other component(not an immediate child) which both are not interlinked we need to drill the data from connecting component to reach the destination component,to avoid the we have Context API
+
+passing data from child to parent component-->
